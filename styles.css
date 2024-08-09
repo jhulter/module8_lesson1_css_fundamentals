@@ -1,0 +1,129 @@
+  * {
+    background-color: rgb(230, 192, 159);
+    text-decoration-color: black;
+    
+  }
+  
+  h1, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 20 px;
+    text-align: center;
+
+  }
+
+  p, li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  header, footer {
+    background-color: black;
+    color: white;
+  }
+  footer  {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+  img {
+    padding: 7;
+    margin: 5;
+    align-items: center;
+
+  }
+  ol {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  ul
+  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  ul {
+    border: 5px solid black;
+  }
+  ol{
+    border: 5px solid black;
+  }
+.cookies {
+  align-items: center;
+  display: flex;
+  justify-self: center;
+  }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+a:hover {
+  color: black;
+}
+.button:hover {background-color: #3e8e41}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  border: 3px solid rgb(0, 0, 0);
+
+}
+.button:active {
+  background-color: #91b692;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.ingredients {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #f1e7e700;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
